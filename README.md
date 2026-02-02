@@ -79,5 +79,7 @@ Predictions should not be used as the sole basis for academic or institutional d
 
 Pranav Jagtap
 GitHub: https://github.com/Pranav2100
+
 LinkedIn: https://www.linkedin.com/in/pranav--jagtap
+
 Email: pranavjagtap2151@gmail.com

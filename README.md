@@ -39,16 +39,21 @@ Live Demo:- [https://healthcare-chatbot-9mcn.onrender.com/](https://student-drop
 ### 1️⃣ Clone the repository
 
 git clone https://github.com/Pranav2100/Student-Dropout-Prediction.git
+
 cd Student-Dropout-Prediction
 
 2️⃣ Create and activate virtual environment
+
 python -m venv venv
+
 venv\Scripts\activate
 
 3️⃣ Install dependencies
+
 pip install -r requirements.txt
 
 4️⃣ Run the Streamlit application
+
 python -m streamlit run app.py
 
 ---
@@ -78,6 +83,7 @@ Predictions should not be used as the sole basis for academic or institutional d
 👤 Author
 
 Pranav Jagtap
+
 GitHub: https://github.com/Pranav2100
 
 LinkedIn: https://www.linkedin.com/in/pranav--jagtap

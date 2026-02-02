@@ -1,11 +1,17 @@
 import streamlit as st
 import numpy as np
-import keras
-import joblib
 
 # Loading trained model and scaler
-model = keras.models.load_model('student_dropout_model.keras')
-scaler = joblib.load('min_max_scaler.pkl')
+@st.cache_resource
+def load_model_and_scaler():
+    import keras
+    import joblib
+    model = keras.models.load_model('student_dropout_model.keras')
+    scaler = joblib.load('min_max_scaler.pkl')
+    return model, scaler
+
+with st.spinner("Loading prediction model..."):
+    model, scaler = load_model_and_scaler()
 
 st.title('Student Dropout Prediction 🎓')
 

@@ -3,6 +3,10 @@
 Student Dropout Prediction is a Machine Learning–based web application that predicts whether a student is likely to pass or drop out based on personal, family, social, and academic factors.
 The application uses a trained neural network model and provides predictions through an interactive Streamlit interface.
 
+<img width="559" height="614" alt="Screenshot 2026-02-02 153630" src="https://github.com/user-attachments/assets/a166b87b-2a32-48af-bb55-d2dbc2090fa8" />
+
+Live Demo:- [https://healthcare-chatbot-9mcn.onrender.com/](https://student-dropout-prediction-6zfw.onrender.com)
+
 ---
 
 ## 🚀 Features
